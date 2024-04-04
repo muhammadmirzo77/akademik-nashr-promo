@@ -222,17 +222,20 @@ button {
     margin-top: 0;
     margin-bottom: 12px;
 }
-.main-info-item-text{
+
+.main-info-item-text {
     margin-top: 0;
     margin-bottom: 0;
 }
-.promo{
+
+.promo {
     margin-top: 210px;
 }
-.promo-container{
+
+.promo-container {
     display: flex;
     align-items: center;
-   gap: 250px;
+    gap: 250px;
     background-color: #252420;
     padding-top: 64px;
     padding-bottom: 64px;
@@ -240,11 +243,13 @@ button {
     color: #fff;
     border-radius: 12px;
 }
-.promo-info{
+
+.promo-info {
     max-width: 440px;
     width: 100%;
 }
-.promo-heading{
+
+.promo-heading {
     margin-top: 0;
     margin-bottom: 24px;
     font-weight: 700;
@@ -253,23 +258,106 @@ button {
     letter-spacing: 0.5px;
 
 }
-.promo-text{
-    margin-top:0 ;
+
+.promo-text {
+    margin-top: 0;
     margin-bottom: 12px;
 }
-.promo-text2{
+
+.promo-text2 {
     margin-top: 0;
     margin-bottom: 24px;
 }
-.promo-span{
+
+.promo-span {
     color: #ff7500;
     font-weight: 700;
 }
-.promo-img-wrapper img{
-width: 440px;
-height: 440px;
-border-radius: 12px;
-margin-left: 64px;
+
+.promo-img-wrapper img {
+    width: 440px;
+    height: 440px;
+    border-radius: 12px;
+    margin-left: 64px;
 
 
+}
+
+.site-footer {
+    background-color: #F8F8F8;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.site-footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-footer-top-item:not(:last-child) {
+
+    margin-right: 16px;
+}
+
+.site-footer-top-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.site-footer-top-link {
+    color: #252420;
+    transition: all 0.4 ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-footer-top-link svg:hover {
+    color: #ff7500;
+
+}
+
+.site-footer-top-link svg:active {
+    opacity: 0.6;
+
+}
+
+.site-footer-line {
+
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+    margin-top: 40px;
+    margin-bottom: 64px;
+
+}
+.site-footer-bootom{
+    display: flex;
+    justify-content: space-between;
+}
+.site-footer-bootom-list{
+    padding: 0;
+    margin: 0;
+}
+.site-footer-bootom-item:not(:last-child){
+ margin-bottom: 16px;
+}
+.site-footer-bootom-link{
+    text-decoration: none;
+    color: #252420;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    transition: all 1s ease;
+  
+}
+.site-footer-bootom-link:hover{
+    color: #ff7500;
+}
+.site-footer-bootom-link:active{
+    opacity: 0.6;
 }

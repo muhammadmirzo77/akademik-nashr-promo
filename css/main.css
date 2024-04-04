@@ -157,12 +157,16 @@ button {
     height: 510px;
     object-fit: cover;
     border-radius: 8px;
+    position: absolute;
+    top: 190px;
+    right: 180px;
 
 }
 
 .main-info {
     margin-bottom: 245px;
 }
+
 
 .main-info-line {
     display: inline-block;
@@ -221,4 +225,51 @@ button {
 .main-info-item-text{
     margin-top: 0;
     margin-bottom: 0;
+}
+.promo{
+    margin-top: 210px;
+}
+.promo-container{
+    display: flex;
+    align-items: center;
+   gap: 250px;
+    background-color: #252420;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    color: #fff;
+    border-radius: 12px;
+}
+.promo-info{
+    max-width: 440px;
+    width: 100%;
+}
+.promo-heading{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+
+}
+.promo-text{
+    margin-top:0 ;
+    margin-bottom: 12px;
+}
+.promo-text2{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.promo-span{
+    color: #ff7500;
+    font-weight: 700;
+}
+.promo-img-wrapper img{
+width: 440px;
+height: 440px;
+border-radius: 12px;
+margin-left: 64px;
+
+
 }
